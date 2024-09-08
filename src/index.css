@@ -1,0 +1,43 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+  
+  .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #ffa600;
+ 
+  }
+  
+  .link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #ffa600;
+
+  }
+  
+  .btn {
+    cursor: pointer;
+    background-color: black;
+  }

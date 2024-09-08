@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  gap: 20px;
+
+}
+
+.list {
+  list-style: none;
+}
+
+.span {
+  font-weight: 600;
+}
+
+.img {
+  display: block;
+}

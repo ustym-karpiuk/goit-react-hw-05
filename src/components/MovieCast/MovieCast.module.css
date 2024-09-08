@@ -1,0 +1,23 @@
+.blokActors {
+  border-top: 1px solid #ffa600;
+  margin: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.conteiner {
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+
+.img {
+  display: block;
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}

@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.input {
+    padding: 10px;
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(78, 78, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: 500;
+    font-size: medium;
+    justify-content: center;
+}

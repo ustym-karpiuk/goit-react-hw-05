@@ -1,0 +1,16 @@
+.page {
+    margin: 10px;
+}
+
+.backbtn {
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #ffa600;
+}
+
+.backbtn:hover{
+    color: #ffa600;
+    background-color: black;
+}

@@ -1,0 +1,16 @@
+.morebtn {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+  color: #ffa600;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 500;
+  font-size: medium;
+  margin: 10px auto;
+}
+
+.morebtn:hover {
+  color: white;
+}
