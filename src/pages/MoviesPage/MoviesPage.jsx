@@ -13,7 +13,7 @@ import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
 export default function MoviesPage() {
-  const [Movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
@@ -45,28 +45,23 @@ export default function MoviesPage() {
     fetchMovies();
   }, [searchQuery, page]);
 
-  const hendleLoadMore = async () => {
+  const handleLoadMore = () => {
     setPage(page + 1);
   };
 
-
-  const handleSearch = async (searchQuery) => {
+  const handleSearch = (searchQuery) => {
     searchParams.set("movie", searchQuery);
-
-
     setSearchParams(searchParams);
   };
-
-
 
   return (
     <div>
       <SearchBar onSearch={handleSearch} />
 
       {error && <ErrorMessage />}
-      {Movies.length > 0 && <MovieGallery items={Movies} />}
+      {movies.length > 0 && <MovieGallery items={movies} />}
 
-      {totalPage > page && <LoadMoreBtn onClick={hendleLoadMore} />}
+      {totalPage > page && <LoadMoreBtn onClick={handleLoadMore} />}
 
       {loading && <Loader />}
     </div>

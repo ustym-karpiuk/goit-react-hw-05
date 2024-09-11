@@ -22,9 +22,9 @@ export default function MovieCast() {
       try {
         setLoading(true);
         setError(false);
-        const Actors = await movieActors(movieId);
+        const actors = await movieActors(movieId);
 
-        setCasts(Actors);
+        setCasts(actors);
       } catch (error) {
         setError(true);
       } finally {
