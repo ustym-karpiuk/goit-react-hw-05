@@ -47,7 +47,7 @@ export default function MovieDetailsPage() {
       {details && <MovieCard details={details} />}
       <ul>
         <li>
-          <NavLink to="actors">Actors info</NavLink>
+          <NavLink to="cast">Actors info</NavLink>
         </li>
         <li>
           <NavLink to="reviews">Movie reviews</NavLink>
